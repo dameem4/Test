@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+import "../styles/layout.css" // Import your CSS file for layout styles
 
 const Layout = ({ children }) => (
   <div>
@@ -6,8 +8,8 @@ const Layout = ({ children }) => (
       <h1>Ravuther Farm</h1>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link to="/" activeClassName="active">Home</Link></li>
+          <li><Link to="/contact" activeClassName="active">Contact</Link></li>
         </ul>
       </nav>
     </header>
