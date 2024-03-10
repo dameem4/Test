@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../pages/layout"
 import backgroundImage from "../images/background.jepg" // Import your background image
 
 const IndexPage = () => (
