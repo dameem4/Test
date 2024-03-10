@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/layout.css" // Import your CSS file for layout styles
+import "../layout.css" // Import your CSS file for layout styles
 
 const Layout = ({ children }) => (
   <div>
