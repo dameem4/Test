@@ -19,7 +19,7 @@ const IndexPage = () => (
       }}
     >
       <h1>Welcome to Ravuther Farm</h1>
-      <p>This is a simple website for Ravuther Farm.</p>
+      <p> Ravuther Farm.</p>
       <p>Contact us to know more!</p>
     </div>
   </Layout>
